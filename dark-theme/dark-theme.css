@@ -2,3 +2,39 @@
 
 /* you need to implement styles for your dark and your light theme */
 /* which will be the default? up to you */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: 1s;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+body.dark {
+    transition: 1s;
+    background-color: rgb(96, 96, 96);
+    color: white;
+}
+
+.title-light {
+    margin: 10px;
+}
+
+.toggle-button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.toggle-button:hover{
+    transform: scale(1.1);
+}

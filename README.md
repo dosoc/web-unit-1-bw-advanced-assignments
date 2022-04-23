@@ -32,11 +32,11 @@ The fourth and final project is significantly more challenging than the rest- a 
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository: git clone git@github.com:bloominstituteoftechnology/web-unit-1-bw-advanced-assignments.git
-- [ ] To open each project, drag the HTML file into your browser like a tab. [See here](https://www.youtube.com/watch?v=nqN_VPvMpW4) if needed.
-- [ ] Implement the project, committing changes regularly: git commit -m "message goes here"
-- [ ] Push commits: git push
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository: git clone git@github.com:bloominstituteoftechnology/web-unit-1-bw-advanced-assignments.git
+- [x] To open each project, drag the HTML file into your browser like a tab. [See here](https://www.youtube.com/watch?v=nqN_VPvMpW4) if needed.
+- [x] Implement the project, committing changes regularly: git commit -m "message goes here"
+- [x] Push commits: git push
  
 ### Task 2: Pick Your Task
 The projects are recommended to do in the below order, but feel free to do them however you'd like if you want to do something different!
