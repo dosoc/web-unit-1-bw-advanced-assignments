@@ -1,1 +1,107 @@
 /* for the most part, your styles are up to you this time; just make it look nice */
+*{
+    text-align: center;    
+}
+header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 38, 101);
+    color: rgb(207, 180, 230);
+
+}
+h1 {
+    margin: 5px;
+}
+p {
+    font-size: 1.5rem;
+    margin: 1vh;
+}
+span {
+    font-size: 1.5rem;
+}
+.game-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.scoreboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20%, 50%, 30%;
+}
+.score {
+    height: 10vh;
+    background-color: rgb(136, 108, 221);
+    border: 1px solid rgb(72, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    height: 25vh;
+    background-color: rgb(178, 150, 220);
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input .fas {
+    background-color: transparent;
+}
+#human-score {
+    grid-column: 1;
+    grid-row: 1;
+}
+#human-input {
+    grid-column: 1;
+    grid-row: 2;
+}
+#comp-score {
+    grid-column: 2;
+    grid-row: 1;
+}
+#comp-input {
+    grid-column: 2;
+    grid-row: 2;
+}
+.button-container {
+    height: 15vh;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(62, 26, 106);
+}
+.fas {
+    font-size: 2.5rem;
+    width: 8vh;
+    height: 8vh;
+    color: yellow;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0;
+}
+#rock-input-human {
+    display: none;
+}
+#paper-input-human {
+    display: none;
+}
+#scissors-input-human {
+    display: none;
+}
+#rock-input-comp {
+    display: none;
+}
+#paper-input-comp {
+    display: none;
+}
+#scissors-input-comp {
+    display: none;
+}
+button:hover {
+    cursor: pointer;
+}

@@ -41,9 +41,9 @@ Follow these steps to set up and work on your project:
 ### Task 2: Pick Your Task
 The projects are recommended to do in the below order, but feel free to do them however you'd like if you want to do something different!
 
-- [ ] Implement the Dark-Theme project
-- [ ] Implement the Modal project
-- [ ] Implement the Scroll-Progress-Bar project
+- [x] Implement the Dark-Theme project
+- [x] Implement the Modal project
+- [x] Implement the Scroll-Progress-Bar project
 - [ ] Implement the Rock-Paper-Scissors project
 
 ### Task 3: Stretch Goals
