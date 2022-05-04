@@ -9,8 +9,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(38, 38, 101);
-    color: rgb(207, 180, 230);
+    background-color: rgb(2, 48, 71);
+    color: rgb(142, 202, 230);
 
 }
 h1 {
@@ -34,22 +34,23 @@ span {
 }
 .score {
     height: 10vh;
-    background-color: rgb(136, 108, 221);
-    border: 1px solid rgb(72, 71, 71);
+    background-color: rgb(33, 158, 188);
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .input {
     height: 25vh;
-    background-color: rgb(178, 150, 220);
-    border: 1px solid grey;
+    background-color: rgb(142, 202, 230);
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .input .fas {
     background-color: transparent;
+    font-size: 5rem;
 }
 #human-score {
     grid-column: 1;
@@ -73,13 +74,13 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(62, 26, 106);
+    background-color: rgb(2, 48, 71);
 }
 .fas {
     font-size: 2.5rem;
     width: 8vh;
     height: 8vh;
-    color: yellow;
+    color: rgb(255, 183, 3);
     background-color: white;
     border-radius: 5px;
     padding: 0;
@@ -104,4 +105,7 @@ span {
 }
 button:hover {
     cursor: pointer;
+}
+button:active {
+    transform: translateY(4%);
 }
